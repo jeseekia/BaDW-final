@@ -1,0 +1,29 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td 
+	{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+body 
+	{ line-height:1; }
+ol,ul 
+	{ list-style:none; }
+blockquote,q 
+	{ quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after 
+	{ content:''; content:none; }
+:focus { outline:1; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; }
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section{ display: block; }
+
+/* Original Style for Business Card. Inspired by Mr. Van Damme's madebyelephant.com */
+
+body{background:url(diamond-shaped-retro.png) repeat;font-family:'Lobster', cursive; font-size: 1em;}
+a { font-variant:small-caps; text-decoration:none; color:#090909; padding-bottom:1px; -webkit-transition-duration:.1s; -webkit-transition-timing-function:ease-in-out; }
+a:hover { color:#31901e; }
+a:active { top: 1px; position:relative; }
+#hcard-Jeseekia{position: absolute; top: 50%; left: 50%; margin: -80px 0 0 -225px; width: 200px; height: 120px; padding: 40px 50px 0 200px; background: #97BA54 url(http://www.jeseekia.com/glyphicons_118_embed_close.png) no-repeat 18% 50%; -webkit-box-shadow: #bbb 0 1px 20px; -moz-box-shadow: #bbb 0 1px 20px; border-radius: 20px; border: 1px solid rgb(255, 255, 255); -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-animation-duration: 1.4s; -webkit-animation-iteration-count: 1; -webkit-animation-timing-function: ease-in; -webkit-animation-name: fade;}
+#hcard-Jeseekia{-webkit-transition-duration:1s; -webkit-transition-timing-function:ease-in-out;}
+#hcard-Jeseekia:hover{ -webkit-box-shadow: #999 0 500px 500px; -moz-box-shadow: #999 0 1px 20px;}
+.url{display:block; margin-bottom:15px; width: 175px; font-size: 28px;}
+.email{display:block; margin-bottom:15px; width:180px; font-size:22px;}
+.tel{display:block; font-family: Georgia, serif; font-size:18px;}
+@-webkit-keyframes fade { from { opacity: 0; } to { opacity: 1; } }

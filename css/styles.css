@@ -1,0 +1,101 @@
+
+
+body{
+	background: url('flowerwallpaper.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+section{
+	float: left;
+}
+
+body nav{
+	
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 30%;
+	background-color: #A0F7B1;
+	border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+nav section{
+	width: 33.3%;
+	text-align: center;
+
+}
+
+#menu4{display: none}
+
+#box2{
+	
+	width: 33.3%;
+	height: 800px;
+	background: linear-gradient( to right, #F7A0E6, #A0F7B1 );
+	border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+	opacity: .75;
+	
+}
+
+#box1{
+	background-color: #F7A0E6;
+	width: 33.3%;
+	height: 800px;
+	border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+	opacity: .75;
+
+	
+}
+
+
+
+#box3{
+	background-color: #A0F7B1;
+	width: 33.3%;
+	height: 800px;
+	border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+	opacity: .75;
+	
+
+}
+
+#box1:hover {
+	background: linear-gradient(to right, #A0F7B1, #F7A0E6);
+	transform: rotate(45deg);
+	opacity: 1;
+
+}
+
+#box2:hover {
+	background-color: #A0F7B1;
+	transform: rotate(45deg);
+	opacity: 1;
+
+}
+
+
+#box3:hover {
+	background-color: #F7A0E6;
+	transform: rotate(45deg);
+	opacity: 1;
+
+}
+
+@media (max-width: 900px){
+		#box3{display: none}
+		/*#menu3{display: none}*/
+	
+}
+
+
+@media (max-width: 600px){
+		#box2{display: none}
+		/*#menu2{display: none}*/
+	
+}
+
+@media (max-width: 300px){
+	#box1{width: 100%;}
+	
+}
